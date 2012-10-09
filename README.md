@@ -1,6 +1,6 @@
 # Web-Design-Experiments
 
-These are bunch of CSS3 experiments I've done in my free time. Everything you see is __pure CSS and nothing else__. All the experiments are testing on latest versions of Firefox, Chrome, Opera
+These are bunch of CSS3 experiments I've done in my free time. Everything you see is __pure CSS and nothing else__. All the experiments are testing on latest versions of Firefox, Chrome and Opera, on Windows and Linux.
 
 ## Edge Shadows
 
