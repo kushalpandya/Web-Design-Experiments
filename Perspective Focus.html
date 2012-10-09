@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Perspective Focus</title>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: Helvetica, Arial;
+			background: #F7F7F7;
+		}
+		#menubar {
+			margin: auto;
+			color: #202021;
+			margin-top: 5%;
+			text-align: center;
+			background: #C8C8CA;
+		}
+		#menubar ul li {
+			display: inline-block;
+			width: 100px;
+			vertical-align: top;
+			overflow: hidden;
+		}
+		#menubar a {
+			color: #202021;
+			display: block;
+			padding: 6px;
+			text-decoration: none;
+		}
+		#menubar .menulist:hover a:hover {
+    		padding: 6px;
+    		color: #202021;
+    		color: #FFF;
+    		background-color: #97979B;
+    		border-radius: 3px;
+    		-webkit-transition: all .3s;
+		}
+		#menubar .menulist:hover  a {
+ 		   color: #747478;
+ 		   -webkit-transition: all .3s;
+		}​
+
+		input[type="text"] {
+			outline: none;
+			padding: 6px 4px 6px 4px;
+			border-radius: 2px;
+			background-color: #EEEEEE;
+			border: 1px solid #C0C0C2;
+		}
+		input[type="text"]:focus {
+			background-color: #FFF;
+			box-shadow: 0px 0px 6px #8A8AFF;
+		}
+
+	</style>
+	<body>
+		<div id="menubar">
+			<ul class="menulist">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

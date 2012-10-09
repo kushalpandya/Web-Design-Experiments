@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Retro Radio</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				display: block;
+				margin: auto;
+				background: #F7F7F7;
+				font-family: Arial, Helvetica;
+			}
+			#contentArea {
+				display: block;
+			}
+			#radio {
+				display: block;
+				position: absolute;
+				left: 25%;
+				top: 10%;
+				padding: 10px 10px 10px 10px;
+				width: 600px;
+				height: 350px;
+				background: #231412;
+				border-top-left-radius: 35px;
+				border-top-right-radius: 35px;
+				border-bottom-left-radius: 4px;
+				border-bottom-right-radius: 4px;
+				box-shadow: 0 0 10px #000;
+			}
+			#radio .frame {
+				display: block;
+				position: absolute;
+				padding: 10px 10px 10px 10px;
+				width: 580px;
+				height: 330px;
+				background: #FFF;
+				border-top-left-radius: 30px;
+				border-top-right-radius: 30px;
+				border-bottom-left-radius: 4px;
+				border-bottom-right-radius: 4px;
+				box-shadow: 0 0 10px #000;
+			}
+			#radio .frame .panel {
+				display: block;
+				position: absolute;
+				padding: 10px 10px 10px 10px;
+				width: 560px;
+				height: 310px;
+				background: #311A15;
+				border-top-left-radius: 25px;
+				border-top-right-radius: 25px;
+				border-bottom-left-radius: 4px;
+				border-bottom-right-radius: 4px;
+				box-shadow: 0 0 10px #000 inset;
+			}
+			#radio .meter {
+				display: block;
+				position: absolute;
+				padding: 10px 10px 10px 10px;
+				width: 540px;
+				height: 80px;
+				background: #EFD261;
+				background-image: -webkit-linear-gradient(#E6BC17,#EFD261);
+				background-image:    -moz-linear-gradient(#E6BC17,#EFD261);
+				background-image:     -ms-linear-gradient(#E6BC17,#EFD261);
+				background-image:      -o-linear-gradient(#E6BC17,#EFD261);
+				background-image:         linear-gradient(#E6BC17,#EFD261);
+				border-top-left-radius: 15px;
+				border-top-right-radius: 15px;
+				border-bottom-left-radius: 4px;
+				border-bottom-right-radius: 4px;				
+				box-shadow: 0 0 10px #000 inset;
+			}
+			#radio .meter .lines{
+				display: block;
+				position: absolute;
+				width: 535px;
+				height: 0px;
+				top: 85%;
+				border: 2px dotted #000;
+			}
+			#radio .meter .lines:before{
+				content: " ";
+				display: block;
+				position: absolute;
+				width: 535px;
+				height: 0px;
+				left: -2px;
+				top: -10px;
+				border: 2px dotted #000;
+			}
+			#radio .meter .lines:after{
+				content: " ";
+				display: block;
+				position: absolute;
+				width: 535px;
+				height: 0px;
+				left: -2px;
+				top: -6px;
+				border: 2px dotted #000;
+			}
+			#radio .panel .meter:after {
+				content: "104.2";
+				display: block;
+				position: absolute;
+				color: #363636;
+				font-weight: bold;
+				bottom: 0;
+				left: 55%;
+				width: 4px;
+				height: 80px;
+				background: #B30000;
+				box-shadow: 3px 3px 6px #000;
+			}
+			#radio .panel .dialleft {
+				display: block;
+				position: absolute;
+				top: 69%;
+				left: 4%;
+				width: 80px;
+				height: 80px;
+				background: #643200;
+				border-radius: 100%;
+			}
+			#radio .panel .dialleft:after {
+				content: "";
+				display: block;
+				position: absolute;
+				top: -15%;
+				left: -15%;
+				width: 100px;
+				height: 100px;
+				background: #EFD261;
+				border-radius: 100%;
+				opacity: .5;
+				box-shadow: 4px 4px 10px #000;
+				border: 2px dashed #000;
+			}
+			#radio .panel .dialright {
+				display: block;
+				position: absolute;
+				top: 69%;
+				right: 4%;
+				width: 80px;
+				height: 80px;
+				background: #643200;
+				border-radius: 100%;
+			}
+			#radio .panel .dialright:after {
+				content: "";
+				display: block;
+				position: absolute;
+				top: -15%;
+				right: -15%;
+				width: 100px;
+				height: 100px;
+				background: #EFD261;
+				border-radius: 100%;
+				opacity: .5;
+				box-shadow: 4px 4px 10px #000;
+				border: 2px dashed #000;
+			}
+			#radio .panel .speakergauge {
+				position: absolute;
+				top: 50%;
+				left: 33%;
+				width: 200px;
+				height: 100px;
+				color: #000;
+				font-weight: bold;
+				text-shadow: 2px 2px 4px #000;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="contentArea">
+			<div id="radio">
+				<div class="frame">
+					<div class="panel">
+						<div class="meter">
+							<div class="lines">
+								&nbsp;
+							</div>
+						</div>
+						<div class="dialleft">
+							&nbsp;
+						</div>
+						<div class="dialright">
+							&nbsp;
+						</div>
+						<div class="speakergauge">
+							----------------------------------------
+							----------------------------------------
+							----------------------------------------
+							----------------------------------------
+							----------------------------------------
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
