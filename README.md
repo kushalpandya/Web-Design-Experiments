@@ -12,7 +12,7 @@ Page edge shadows that persist even if the page is scrolled. Gives a nice inset 
 
 Perspectively Focusable Menubar, when one of the menu items is hovered, rest of the items get faded, and current is focused.
 
-![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/Windows%208%20Logo.png)
+![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/Perspective%20Focus.png)
 
 ## Retro Radio
 
@@ -24,7 +24,7 @@ A Retro Radio, made out of CSS!!
 
 Microsoft(r) Windows(r) 8 logo made in CSS 3D transformations. Beware, **it only works on Chrome for Windows**.
 
-![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/Retro%20Radio.png)
+![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/Windows%208%20Logo.png)
 
 ## Author
 
