@@ -12,7 +12,7 @@ Page edge shadows that persist even if the page is scrolled. Gives a nice inset 
 
 Perspectively Focusable Menubar, when one of the menu items is hovered, rest of the items get faded, and current is focused.
 
-![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/Perspective%20Focus.png)
+![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/Windows%208%20Logo.png)
 
 ## Retro Radio
 
