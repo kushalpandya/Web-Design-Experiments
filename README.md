@@ -4,7 +4,7 @@ These are bunch of CSS3 experiments I've done in my free time. Everything you se
 
 ## Edge Shadows
 
-Page edge shadows that persist even if the page is scrolled. Gives a nice inset effect.
+Page edge shadows that persist even if the page is scrolled. Gives a nice inset effect. Those ribbon icons are not images. :-)
 
 ![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/Edge%20Shadows.png)
 
