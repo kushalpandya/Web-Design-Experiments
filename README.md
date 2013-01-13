@@ -26,6 +26,12 @@ Microsoft(r) Windows(r) 8 logo made in CSS 3D transformations. Beware, **it only
 
 ![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/Windows%208%20Logo.png)
 
+## Bubble Chat
+
+Complete reusable chat widget with detailed user list, and clean, threaded messaging view, again CSS only.
+
+![ScreenShot](https://raw.github.com/kushalpandya/Web-Design-Experiments/master/Screenshots/BubbleChat.png)
+
 ## Author
 
 [Kushal Pandya](https://github.com/kushalpandya)
