@@ -18,84 +18,56 @@
 				margin-top: 10%;
 				text-align: center;
 			}
-			#logo {
+			
+			#logo-wrapper {
 				float: left;
+				-webkit-perspective: 200;
+			}
+
+			.logo {
 				width: 350px;
 				height: 300px;
 				margin: auto;
-				margin-top: 6%;
-				-webkit-perspective: 200;
-				-moz-perspective: 200;
-				-ms-perspective: 200;
-				-o-perspective: 200;
-				perspective: 200;
-			}
-			#logo .topleft {
-				float: left;
-				display: block;
-				width: 170px;
-				height: 130px;
-				background: #00adef;
-				margin-bottom: 10px;
+				margin-top: 5%;
+				background: #00adef;   
 				-webkit-transform: rotateY(-10deg);
-				-moz-transform: rotateY(-10deg);
-				-ms-transform: rotateY(-10deg);
-				-o-transform: rotateY(-10deg);
-				transform: rotateY(-10deg);
+				   -moz-transform: rotateY(-10deg);
+					-ms-transform: rotateY(-10deg);
+					 -o-transform: rotateY(-10deg);
+						transform: rotateY(-10deg);
 			}
-			#logo .topright {
-				float: right;
+
+			.horizontal-strip {
 				display: block;
-				width: 170px;
-				height: 150px;
-				background: #00adef;
-				margin-bottom: 15px;
-				margin-top: -25px;
-				-webkit-transform: rotateY(-10deg);
-				-moz-transform: rotateY(-10deg);
-				-ms-transform: rotateY(-10deg);
-				-o-transform: rotateY(-10deg);
-				transform: rotateY(-10deg);
+				position: absolute;
+				margin-top: 150px;
+				height: 10px;
+				width: 350px;
+				background: white;
 			}
-			#logo .bottomleft {
-				float: left;
+
+			.vertical-strip {
 				display: block;
-				width: 170px;
-				height: 130px;
-				background: #00adef;
-				margin-bottom: 10px;
-				-webkit-transform: rotateY(-10deg);
-				-moz-transform: rotateY(-10deg);
-				-ms-transform: rotateY(-10deg);
-				-o-transform: rotateY(-10deg);
-				transform: rotateY(-10deg);
+				position: absolute;
+				margin-left: 175px;
+				height: 300px;
+				width: 10px;
+				background: white;
 			}
-			#logo .bottomright {
-				float: right;
-				display: block;
-				width: 170px;
-				height: 150px;
-				background: #00adef;
-				margin-bottom: 10px;
-				-webkit-transform: rotateY(-10deg);
-				-moz-transform: rotateY(-10deg);
-				-ms-transform: rotateY(-10deg);
-				-o-transform: rotateY(-10deg);
-				transform: rotateY(-10deg);
-			}
+
 			.title {
 				float: right;
 				font-size: 140px;
 				color: #00adef;
-				margin-top: 10%;
+				margin-top: 5%;
 				margin-right: 5%;
 			}
 			.trademark {
 				float: left;
 				font-size: 30px;
 				color: #00adef;
-				margin-top: 28%;
-				margin-left: 2%;
+				margin-top: 23%;
+				margin-left: 3%;
 			}
 			em {
 				font-size: 20px;
@@ -107,11 +79,11 @@
 	</head>
 	<body>
 		<div id="wrapper">
-			<div id="logo">
-				<div class="topleft"></div>
-				<div class="topright"></div>
-				<div class="bottomleft"></div>
-				<div class="bottomright"></div>
+			<div id="logo-wrapper">
+				<div class="logo">
+					<div class="horizontal-strip"></div>
+					<div class="vertical-strip"></div>
+				</div>
 			</div>
 			<div class="trademark">TM</div>
 			<div class="title">Windows<em>&reg;</em> 8</div>
